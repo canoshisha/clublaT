@@ -11,14 +11,14 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand">Alquiler de pistas</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <a class="navbar-brand" href="index.html">Club la T</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Inicio</a>
                         </li>
@@ -26,19 +26,25 @@
                             <a class="nav-link" href="reservas.html">Reservas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#instalaciones">Instalaciones</a>
+                            <a class="nav-link" href="instalaciones.html">Instalaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="qsomos.html">¿Quiénes somos?</a>
                         </li>
                     </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
         <section id="presentacion" class="py-5 text-center">
             <h1 class="display-4">Bienvenido a nuestro centro deportivo</h1>
             <p class="lead">Ofrecemos pistas de tenis y padel indoor para que disfrutes de tu deporte favorito durante todo el año.</p>
-            <a href="#" class="btn btn-primary btn-lg">Más información</a>
+            <a href="qsomos.html" class="btn btn-primary btn-lg">Más información</a>
         </section>
         <section id="instalaciones" class="py-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -84,7 +90,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
