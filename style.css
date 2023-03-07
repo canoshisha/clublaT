@@ -1,4 +1,19 @@
-.carousel-item img {
-    height: 400px;
+.inicio-carousel {
+    height: 700px;
+}
+
+.inicio-img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.instalaciones-carousel {
+    width: 400px;
+    height: 300px;
+}
+
+.instalaciones-img {
+    width: 400px;
+    height: 300px;
     object-fit: cover;
 }
