@@ -19,11 +19,19 @@
 }
 
 a {
-    color: black;
+    color: gray;
     text-decoration: none;
 }
 
 a:hover {
-    color: gray;
+    color: dimgray;
     text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item.active {
+    background-color: dimgray;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: dimgray;
 }
