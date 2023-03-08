@@ -23,8 +23,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="reservas.html">Reservas</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reservar</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="reservaClase.html">Reservar clases</a></li>
+                                <li><a class="dropdown-item" href="reservaPista.html">Reservar pista</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="instalaciones.html">Instalaciones</a>
@@ -44,34 +48,42 @@
 
     <main>
         <div class="container my-5">
-            <h1 class="text-center mb-4">Club la T </h1>
-            <h2 class="text-center mb-4">Centro deportivo de tenis y pádel</h2>
+            <h1 class="text-center mb-4">Club la "T" </h1>
+            <h3 class="text-center mb-4">Centro deportivo de tenis y pádel indoor</h3>
             <div class="row">
-                <div class="col-md-12">
+                <div id="conocenos" class="col-md-12">
                     <h2>Conócenos</h2>
-                    <p>Bienvenidos a nuestro centro de alquiler de pistas de tenis y pádel en Palmete, Sevilla. Ofrecemos una experiencia única para los amantes del deporte con la comodidad de nuestras instalaciones indoor. Además de nuestras pistas, contamos
-                        con taquillas para que puedas guardar tus productos deportivos con total seguridad. No solo nos dedicamos al alquiler de pistas, sino que también vendemos productos relacionados con el tenis y el pádel. Encontrarás una amplia variedad
-                        de raquetas, palas, pelotas y accesorios para que puedas equiparte antes de cada partido. Además, organizamos torneos los fines de semana para que puedas poner a prueba tus habilidades y competir con otros jugadores. Los horarios
-                        de los torneos son los siguientes: Sábados: torneo de pádel a las 17:00h Domingos: torneo de tenis a las 10:00h Los ganadores de cada torneo recibirán un premio especial. ¡No pierdas la oportunidad de participar y demuestra tu
-                        habilidad en la pista!</p>
-                    <p>La zona cuenta con modernas instalaciones deportivas que incluyen pistas de alta calidad y equipadas con las últimas tecnologías. Los clientes que elijan esta ubicación disfrutarán de un ambiente agradable y acogedor, servicios de
-                        alta calidad, como clases particulares, las cuales se impartiran bajo demanda de 6 personas, en los horarios libres.</p>
+                    <p>Bienvenidos a nuestro centro de tenis y pádel en Palmete, Sevilla. Ofrecemos una experiencia única para los amantes del deporte con la comodidad de nuestras instalaciones indoor. Además de nuestras pistas para alquilar y recibir clases,
+                        contamos con taquillas para que puedas guardar tus objetos personales con total seguridad. También vendemos productos deportivos relacionados con los deportes como son, una amplia variedad de raquetas, palas que podrás alquilar
+                        o pelotas y accesorios para comprar para que puedas equiparte antes de cada partido.</p>
+                    <p>Por otro lado, organizamos torneos los fines de semana en horario de mañana para que puedas poner a prueba tus habilidades, competir con otros jugadores y los ganadores de cada torneo recibirán un premio especial. </p>
 
-                    <p>Somos un centro de alquiler de pistas de tenis y pádel indoor en Palmete, Sevilla. Contamos con instalaciones perfectas para disfrutar de tu deporte favorito en cualquier momento del día.</p>
+                    <b>¡No pierdas la oportunidad de participar y demuestra tu habilidad en la pista!</b>
                 </div>
-                <div class="col-md-6  my-5" id="tituloReserva">
-                    <h2>RESERVA YA</h2>
+                <div id="pqnosotros" class="col-md-12 my-5">
+                    <h2>¿Por qué elegirnos a nosotros?</h2>
+                    <br>
+                    <p>La zona cuenta con modernas instalaciones que incluyen pistas nuevas, de alta calidad y equipadas con las últimas tecnologías, aparcamiento para poder llevar vehículo propio sin problema. Por lo tanto, los clientes que elijan esta
+                        ubicación disfrutarán de un ambiente agradable y acogedor, servicios de alta calidad, clases particulares, las cuales se impartirán bajo demanda de 6 personas</p>
+                </div>
+                <div class="col-md-6 " id="qsomos-reservaTuPista">
+                    <h2>RESERVA YA TU PISTA</h2>
                     <p>¡Reserva ahora tu pista favorita y <br>disfruta del deporte al máximo!</p>
-                    <a href="reservas.html" class="btn btn-dark btn-lg">Reservar ahora</a>
+                    <a href="reservaPista.html" class="btn btn-dark btn-lg">Reservar ahora tu pista</a>
+                </div>
+                <div class="col-md-6 " id="qsomos-reservaTuClase">
+                    <h2>RESERVA YA TUS CLASES</h2>
+                    <p>¡Reserva ahora tus clases con los mejores entrenadores del momento y <br>disfruta del deporte al máximo!</p>
+                    <a href="reservaClase.html" class="btn btn-dark btn-lg">Reservar ahora tu clase</a>
                 </div>
                 <div class="col-md-6  my-5">
-                    <h2>Horarios y Precios</h2>
+                    <h2>Precios pista</h2>
                     <table class="table table-striped table-light">
                         <thead>
                             <tr>
                                 <th>Tiempo (1h 30m)</th>
-                                <th>Mañana (9:00 - 14:00)</th>
-                                <th>Tarde (16:00 - 22:00)</th>
+                                <th>Mañana</th>
+                                <th>Tarde</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -80,26 +92,40 @@
                                 <td>22€</td>
                                 <td>30€</td>
                             </tr>
+
+                            <tr>
+                                <td>Pista de Tenis</td>
+                                <td>20€</td>
+                                <td>15€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="col-md-6  my-5">
+                    <h2>Precios clases</h2>
+                    <table class="table table-striped table-light">
+                        <thead>
+                            <tr>
+                                <th>Tiempo (1h 30m)</th>
+                                <th>Mañana</th>
+                                <th>Tarde</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>Clases de Pádel</td>
                                 <td>8€/persona</td>
                                 <td>10€/persona</td>
                             </tr>
                             <tr>
-                                <td>Pista de Tenis</td>
-                                <td>20€</td>
-                                <td>15€</td>
-                            </tr>
-                            <tr>
                                 <td>Clases de Tenis</td>
                                 <td>6€/persona</td>
                                 <td>8€/persona</td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
-                <br>
                 <br>
                 <div class="col-md-6">
                     <h1>¿Dónde nos encontramos?</h1>
