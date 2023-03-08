@@ -50,15 +50,46 @@
         <section id="presentacion">
             <a href="qsomos.html"><img src="img/Imagen inicio.png" class="d-block w-100 inicio-img" alt="logo-inicio" /></a>
         </section>
-        <section id="contaactanos">
+        <section id="contactanos">
             <div class="container my-5">
-                <h1 class="text-center mb-4">Club la T </h1>
-                <h2 class="text-center mb-4">Centro deportivo de tenis y pádel</h2>
                 <div class="row">
-                    <div class="col-md-4 text-lg-center">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Club la T </h1>
+                        <h2 class="text-center">Centro deportivo de tenis y pádel</h2>
+                    </div>
+                    <div class="col-md-4 ">
                         <h2>RESERVA YA</h2>
                         <p>¡Reserva ahora tu pista favorita y <br>disfruta del deporte al máximo!</p>
-                        <a href="reservas.html" class="btn btn-dark btn-lg">Reservar ahora</a>
+                        <a href="reservaClase.html" class="btn btn-dark btn-lg my-2">Reservar tu clase ahora</a>
+                        <a href="reservaPista.html" class="btn btn-dark btn-lg">Reservar tu pista ahora</a>
+                    </div>
+                    <div id="carousel" class="col-md-8 carousel text-end slide inicio-carousel" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="inicio carousel-item active">
+                                <img src="img/pistaPadel.jpg" class="d-block w-100 inicio-img-carousel" alt="pistas de padel indoor">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Pistas de Padel indoor</h5>
+                                </div>
+                            </div>
+                            <div class="inicio carousel-item">
+                                <img src="img/pistaTenis.jpeg" class="d-block w-100 inicio-img-carousel" alt="pistas de tenis indoor">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Pista de tenis indoor</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
         </section>

@@ -1,5 +1,10 @@
 .inicio-carousel {
-    height: 700px;
+    height: 250px;
+}
+
+.inicio-img-carousel {
+    height: 250px;
+    object-fit: cover;
 }
 
 .inicio-img {
