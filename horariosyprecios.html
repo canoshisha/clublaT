@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Logo.png">
-    <title>Reservar clase - Club la T</title>
+    <title>Club la T</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -49,77 +50,73 @@
             </div>
         </nav>
     </header>
-
     <br>
+    
     <main>
-        <section id="reservas-clases" class="py-5">
-            <div class="container" id="container-clases">
-                <h2 class="text-center mb-5">Reserva tus clases</h2>
-                <form>
-                    <div class="form-group row">
-                        <label for="fecha" class="col-sm-2 col-form-label">Fecha</label>
-                        <div class="col-sm-10">
-                            <input type="date" class="form-control" id="fecha-clases">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="hora" class="col-sm-2 col-form-label">Hora</label>
-                        <div class="col-sm-10">
-                            <input type="time" class="form-control" id="hora-clases">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="deporte" class="col-sm-2 col-form-label">Deporte</label>
-                        <div id="deporteSelec" class="col-sm-10">
-                            <select class="form-control" id="clase" name="deporte-clase">
-                                <option value="">Selecciona una modalidad de deporte</option>
-                                <option value="tenis">Tenis</option>
-                                <option value="padel">Padel</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="pago" class="col-sm-2 col-form-label">Tipo de pago</label>
-                        <div class="col-sm-10">
-                            <select class="form-control" id="pago" name="pago">
-                                    <option value="completo">Pago completo</option>
-                                    <option value="parcial">Pago parcial</option>
-                                </select>
-                        </div>
-                    </div>
-                    <div id="nombres_jugadores_clases" class="form-group row d-none">
-                        <label for="nombres" class="col-sm-2 col-form-label">Nombres de los jugadores</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="nombres1" name="nombres1" placeholder="nombre jugador 1">
-                            <input type="text" class="form-control" id="nombres2" name="nombres2" placeholder="nombre jugador 2">
-                            <input type="text" class="form-control" id="nombres3" name="nombres3" placeholder="nombre jugador 3">
-                            <input type="text" class="form-control" id="nombres4" name="nombres4" placeholder="nombre jugador 4">
-                            <input type="text" class="form-control" id="nombres5" name="nombres5" placeholder="nombre jugador 5">
-                            <input type="text" class="form-control" id="nombres6" name="nombres6" placeholder="nombre jugador 6">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
-                        <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="telefono" placeholder="Número de teléfono">
-                        </div>
-                    </div>
-                    <div class="form-group row py-5">
-                        <div class="col-sm-10 offset-sm-2">
-                            <button type="submit" class="btn btn-dark btn-lg">Reservar clases</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </main>
+        <div class="container my-5">
+            <div class="row">
+        <div class="col-md-6 " id="qsomos-reservaTuPista">
+            <h2>RESERVA YA TU PISTA</h2>
+            <p>¡Reserva ahora tu pista favorita y <br>disfruta del deporte al máximo!</p>
+            <a href="reservaPista.html" class="btn btn-dark btn-lg">Reservar ahora tu pista</a>
+        </div>
+        <div class="col-md-6 " id="qsomos-reservaTuClase">
+            <h2>RESERVA YA TUS CLASES</h2>
+            <p>¡Reserva ahora tus clases con los mejores entrenadores del momento y <br>disfruta del deporte al máximo!</p>
+            <a href="reservaClase.html" class="btn btn-dark btn-lg">Reservar ahora tu clase</a>
+        </div>
+        <div class="col-md-6  my-5">
+            <h2>Precios pista</h2>
+            <table class="table table-striped table-light">
+                <thead>
+                    <tr>
+                        <th>Tiempo (1h 30m)</th>
+                        <th>Mañana</th>
+                        <th>Tarde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pista de Pádel</td>
+                        <td>22€</td>
+                        <td>30€</td>
+                    </tr>
 
+                    <tr>
+                        <td>Pista de Tenis</td>
+                        <td>20€</td>
+                        <td>15€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="col-md-6  my-5">
+            <h2>Precios clases</h2>
+            <table class="table table-striped table-light">
+                <thead>
+                    <tr>
+                        <th>Tiempo (1h 30m)</th>
+                        <th>Mañana</th>
+                        <th>Tarde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clases de Pádel</td>
+                        <td>8€/persona</td>
+                        <td>10€/persona</td>
+                    </tr>
+                    <tr>
+                        <td>Clases de Tenis</td>
+                        <td>6€/persona</td>
+                        <td>8€/persona</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+    </main>
     <footer class="bg-dark text-light py-3">
         <div class="container">
             <div class="row">
@@ -150,11 +147,12 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script-reserva.js"></script>
     <script src="js/script-nav.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
