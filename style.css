@@ -13,13 +13,13 @@
 }
 
 .instalaciones-carousel {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 350px;
 }
 
 .instalaciones-img {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 350px;
     object-fit: cover;
 }
 
