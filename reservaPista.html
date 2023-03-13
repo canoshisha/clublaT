@@ -8,6 +8,7 @@
     <title>Reservar pista - Club la T</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_reserva.css">
 </head>
 
 <body>
@@ -59,20 +60,20 @@
                     <div class="form-group row">
                         <label for="fecha" class="col-sm-2 col-form-label">Fecha</label>
                         <div class="col-sm-10">
-                            <input type="date" class="form-control" id="fecha">
+                            <input type="date" class="form-control dark" id="fecha">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="hora" class="col-sm-2 col-form-label">Hora</label>
                         <div class="col-sm-10">
-                            <input type="time" class="form-control" id="hora">
+                            <input type="time" class="form-control dark" id="hora">
                         </div>
                     </div>
                     <div id="modificaciones">
                         <div class="form-group row">
                             <label for="pista" class="col-sm-2 col-form-label">Pista</label>
                             <div id="pistasSelec" class="col-sm-10">
-                                <select class="form-control" id="pista" name="pista">
+                                <select class="form-control dark" id="pista" name="pista">
                                 <option value="">Selecciona una pista</option>
                                 <option value="tenis">Pista de tenis 1</option>
                                 <option value="tenis">Pista de tenis 2</option>
@@ -86,7 +87,7 @@
                         <div class="form-group row">
                             <label for="pago" class="col-sm-2 col-form-label">Tipo de pago</label>
                             <div class="col-sm-10">
-                                <select class="form-control" id="pago" name="pago">
+                                <select class="form-control dark" id="pago" name="pago">
                                     <option value="completo">Pago completo</option>
                                     <option value="parcial">Pago parcial</option>
                                 </select>
@@ -96,7 +97,7 @@
                         <div id="jugadores" class="form-group row d-none">
                             <label for="num_jugadores" class="col-sm-2 col-form-label">Número de jugadores</label>
                             <div class="col-sm-10">
-                                <select class="form-control" id="num_jugadores" name="num_jugadores">
+                                <select class="form-select dark" id="num_jugadores" name="num_jugadores">
                                     <option value="">Selecciona el número de jugadores</option>
                                     <option id="2players" value="2">2 jugadores</option>
                                     <option id="4players" value="4">4 jugadores</option>
@@ -107,29 +108,29 @@
                         <div id="nombres_jugadores" class="form-group row d-none">
                             <label for="nombres" class="col-sm-2 col-form-label">Nombres de los jugadores</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nombres1" name="nombres1" placeholder="nombre jugador 1" disabled>
-                                <input type="text" class="form-control" id="nombres2" name="nombres2" placeholder="nombre jugador 2" disabled>
-                                <input type="text" class="form-control" id="nombres3" name="nombres3" placeholder="nombre jugador 3" disabled>
-                                <input type="text" class="form-control" id="nombres4" name="nombres4" placeholder="nombre jugador 4" disabled>
+                                <input type="text" class="form-control dark" id="nombres1" name="nombres1" placeholder="nombre jugador 1" disabled>
+                                <input type="text" class="form-control dark" id="nombres2" name="nombres2" placeholder="nombre jugador 2" disabled>
+                                <input type="text" class="form-control dark" id="nombres3" name="nombres3" placeholder="nombre jugador 3" disabled>
+                                <input type="text" class="form-control dark" id="nombres4" name="nombres4" placeholder="nombre jugador 4" disabled>
                             </div>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+                            <input type="text" class="form-control dark" id="nombre" placeholder="Nombre completo">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                            <input type="email" class="form-control dark" id="email" placeholder="Correo electrónico">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="telefono" placeholder="Número de teléfono">
+                            <input type="tel" class="form-control dark" id="telefono" placeholder="Número de teléfono">
                         </div>
                     </div>
                     <div class="form-group row py-5">

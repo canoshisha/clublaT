@@ -34,12 +34,32 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .dropdown-menu .dropdown-item.active {
-    background-color: dimgray;
+    background-color: rgb(122, 122, 122);
 }
 
 .navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-color: dimgray;
 }
-.table-responsive .table.table-secondary .X{
+
+.table-responsive .table.table-secondary .X {
     background-color: rgb(50, 50, 50);
+}
+
+.btn-outline-success {
+    color: gray;
+    border-color: #616362;
+    background-color: #212529;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    border-color: #616362;
+    background-color: #141516;
+}
+
+.btn:hover {
+    color: white;
+    border-color: #616362;
+    background-color: #141516;
+    box-shadow: 0px 0px 38px -9px rgba(0, 0, 0, 8);
 }

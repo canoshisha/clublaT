@@ -8,6 +8,7 @@
     <title>Reservar clase - Club la T</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_reserva.css">
 </head>
 
 <body>
@@ -59,55 +60,43 @@
                     <div class="form-group row">
                         <label for="fecha" class="col-sm-2 col-form-label">Fecha</label>
                         <div class="col-sm-10">
-                            <input type="date" class="form-control" id="fecha-clases">
+                            <input type="date" class="form-control dark" id="fecha-clases">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="hora" class="col-sm-2 col-form-label">Hora</label>
                         <div class="col-sm-10">
-                            <input type="time" class="form-control" id="hora-clases">
+                            <input type="time" class="form-control dark" id="hora-clases">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="deporte" class="col-sm-2 col-form-label">Deporte</label>
-                        <div id="deporteSelec" class="col-sm-10">
-                            <select class="form-control" id="clase" name="deporte-clase">
-                                <option value="">Selecciona una modalidad de deporte</option>
-                                <option value="tenis">Tenis</option>
-                                <option value="padel">Padel</option>
+                        <div class="col-sm-10">
+                            <select class="form-select dark" id="clase" name="deporte-clase">
+                                <option class="deporte" id="clase" value="">Selecciona una modalidad de deporte</option>
+                                <option class="deporte" id="clase" value="tenis">Tenis</option>
+                                <option class="deporte" id="clase" value="padel">Padel</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="pago" class="col-sm-2 col-form-label">Tipo de pago</label>
                         <div class="col-sm-10">
-                            <select class="form-control" id="pago" name="pago">
+                            <select class="form-control dark" id="clase" name="pago">
                                     <option value="completo">Pago completo</option>
-                                    <option value="parcial">Pago parcial</option>
                                 </select>
-                        </div>
-                    </div>
-                    <div id="nombres_jugadores_clases" class="form-group row d-none">
-                        <label for="nombres" class="col-sm-2 col-form-label">Nombres de los jugadores</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="nombres1" name="nombres1" placeholder="nombre jugador 1">
-                            <input type="text" class="form-control" id="nombres2" name="nombres2" placeholder="nombre jugador 2">
-                            <input type="text" class="form-control" id="nombres3" name="nombres3" placeholder="nombre jugador 3">
-                            <input type="text" class="form-control" id="nombres4" name="nombres4" placeholder="nombre jugador 4">
-                            <input type="text" class="form-control" id="nombres5" name="nombres5" placeholder="nombre jugador 5">
-                            <input type="text" class="form-control" id="nombres6" name="nombres6" placeholder="nombre jugador 6">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                            <input type="email" class="form-control dark" id="email" placeholder="Correo electrónico">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="telefono" placeholder="Número de teléfono">
+                            <input type="tel" class="form-control dark" id="telefono" placeholder="Número de teléfono">
                         </div>
                     </div>
                     <div class="form-group row py-5">
