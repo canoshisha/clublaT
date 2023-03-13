@@ -31,5 +31,27 @@ pistasSelec.addEventListener('change', (event) => {
     } else {
         dosjugadores.classList.remove('d-none');
     }
+});
+numjugadores.addEventListener('change', (event) => {
+    const jugadores = parseInt(event.target.value);
+    console.log(jugadores);
+    if (jugadores === 2) {
+        inputNombres.forEach((input, index) => {
+            if (index < 2) {
+                input.removeAttribute("disabled");
+            } else {
+                input.setAttribute("disabled", true);
+            }
+        });
+    } else if (jugadores === 4) {
+        inputNombres.forEach((input) => {
+            input.removeAttribute("disabled");
+        });
+    } else {
+        inputNombres.forEach((input) => {
+            input.setAttribute("disabled", true);
+        });
+
+    }
 
 });
