@@ -42,24 +42,14 @@ a:hover {
     text-decoration: none;
 }
 
-.tabla-gris {
-    background-color: #E2E3E5;
-    border-color: #E2E3E5;
-}
-
 .table.table-precios {
     background-color: #E2E3E5;
     border-color: #E2E3E5;
 }
 
-.table-precios .table-group-divider {
-    background-color: #E2E3E5;
-    border-color: #E2E3E5;
-}
-
-.table-group-divider td {
-    background-color: #E2E3E5;
-    border-color: #E2E3E5;
+.table.table-precios .tabla-precios-head {
+    background-color: #323232;
+    color: #E2E3E5;
 }
 
 nav {
