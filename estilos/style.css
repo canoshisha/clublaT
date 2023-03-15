@@ -80,7 +80,7 @@ nav ul .dropdown-menu {
 }
 
 .navbar-dark .navbar-nav .dropdown-menu .dropdown-item.active {
-    background-color: rgb(122, 122, 122);
+    background-color: #7A7A7A;
 }
 
 .navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
@@ -88,15 +88,7 @@ nav ul .dropdown-menu {
 }
 
 .table-responsive .table.table-secondary .X {
-    background-color: rgb(50, 50, 50);
-}
-
-.btn-outline-success {
-    border-color: #616362;
-}
-
-.btn-outline-success:hover {
-    border-color: #616362;
+    background-color: #323232;
 }
 
 .btn:hover {
